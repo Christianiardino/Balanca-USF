@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Balaça USF</string>
+    <string name="logo_usf">Logo Usf</string>
+    <string name="peso_calculado">Peso Calculado</string>
+    <string name="informa_es_extras">Informações extras</string>
+    <string name="conectar">Conectar</string>
+    <string name="tara">Salvar</string>
+    <string name="calibragem">Calibragem</string>
+    <string name="enviar">Enviar</string>
+    <string name="peso_10">Peso 10 :</string>
+    <string name="peso_9">Peso 9 :</string>
+    <string name="peso_8">Peso 8 :</string>
+    <string name="peso_7">Peso 7 :</string>
+    <string name="peso_6">Peso 6 :</string>
+    <string name="peso_5">Peso 5 :</string>
+    <string name="peso_4">Peso 4 :</string>
+    <string name="peso_3">Peso 3 :</string>
+    <string name="peso_2">Peso 2 :</string>
+    <string name="peso_1">Peso 1 :</string>
+    <string name="calibra_o_de_peso">Calibração de peso!</string>
+</resources>

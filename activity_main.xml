@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/backGround">
+
+    <RelativeLayout
+        android:id="@+id/mostrador_balanca"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="@color/backGroundPeso">
+        
+        <TextView
+            android:id="@+id/display_peso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="36sp"
+            android:text="@string/peso_calculado"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorFont1"/>
+
+        <TextView
+            android:id="@+id/peso_calculado"
+            android:layout_marginTop="40sp"
+            android:layout_below="@id/display_peso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0.000"
+            android:layout_centerHorizontal="true"
+            android:textSize="140sp"/>
+
+        <TextView
+            android:layout_marginTop="10sp"
+            android:layout_below="@id/peso_calculado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kg"
+            android:layout_centerHorizontal="true"
+            android:textSize="35sp"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/bluetooth_confir"
+        android:layout_marginTop="18sp"
+        android:layout_marginStart="18sp"
+        android:layout_below="@id/mostrador_balanca"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="@string/conectar"
+        android:background="@color/backGroundPeso"/>
+
+    <Button
+        android:id="@+id/button_calibragem"
+        android:layout_marginTop="18sp"
+        android:layout_marginStart="18sp"
+        android:layout_below="@id/bluetooth_confir"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="@string/calibragem"
+        android:background="@color/backGroundPeso"/>
+
+    <ImageView
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/logo_usf"
+        android:src="@drawable/image" />
+
+    <TextView
+        android:id="@+id/texto_bluetooth"
+        android:layout_marginTop="18sp"
+        android:layout_marginStart="18sp"
+        android:layout_marginEnd="18sp"
+        android:layout_below="@+id/button_calibragem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="Texto para coneçao!"/>
+
+
+
+</RelativeLayout>
